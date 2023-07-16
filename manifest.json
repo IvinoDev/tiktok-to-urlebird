@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "TikTok Redirector",
+    "version": "1.0",
+    "description": "Redirige les liens TikTok vers urlebird.com",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "manifest_version": 2,
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    }
+}
